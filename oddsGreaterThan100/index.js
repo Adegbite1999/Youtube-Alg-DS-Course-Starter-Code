@@ -1,6 +1,23 @@
 // Return an odd number greater than 100.
 
-function oddsGreaterThan100() {}
+// function oddsGreaterThan100() {}
+
+
+
+
+
+
+// solution
+
+ function oddsGreaterThan100(){
+  return 107;
+ }
+
+
+
+
+
+
 // _________ _______  _______ _________   _______  _______  _______  _______  _______
 // \__   __/(  ____ \(  ____ \\__   __/  (  ____ \(  ___  )(  ____ \(  ____ \(  ____ \
 //    ) (   | (    \/| (    \/   ) (     | (    \/| (   ) || (    \/| (    \/| (    \/
