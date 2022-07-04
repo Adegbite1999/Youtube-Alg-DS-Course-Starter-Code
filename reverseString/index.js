@@ -3,8 +3,24 @@
 // --- Examples
 //   reverse('abcd') === 'dcba'
 //   reverse('Hello!') === '!olleH'
+// 	reverse('Hello') === 'olleH'
 
-function reverse(str) {}
+// function reverse(str) {
+// 	let result = '';
+// 	// loop through str;
+// 	for(let i = str.length -1; i >=0; i --){
+// 		result += str[i];
+// 	}
+// 	return result;
+// }
+
+// solution 2.
+
+function reverse(str){
+let result = str.split('')
+return result.reverse().join('');
+}
+
 
 // _________ _______  _______ _________   _______  _______  _______  _______  _______
 // \__   __/(  ____ \(  ____ \\__   __/  (  ____ \(  ___  )(  ____ \(  ____ \(  ____ \
